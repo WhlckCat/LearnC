@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+
+//getchar «—”≥Ÿªÿœ‘
+int main()
+{
+    char ch;
+
+    while ((ch = getchar()) != '#')
+        putchar(ch);
+
+    return 0;
+}
